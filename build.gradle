@@ -10,7 +10,7 @@ java {
 
 task cloneRecoilCommon(type: Exec) {
     description 'Pulls recoil common git repo.'
-    commandLine "git", "clone", "--branch", "main", "https://github.com/frc9577/common", "src/main/java/frc/recoil"
+    commandLine "git", "clone", "--branch", "main", "--depth", "1", "https://github.com/frc9577/common", "src/main/java/frc/recoil"
 }
 
 def ROBOT_MAIN_CLASS = "frc.robot.Main"
