@@ -14,4 +14,5 @@ clean:
 
 .PHONY: deep-clean
 deep-clean: clean
+	docker run -it -v ${WORKDIR}:/work -w /work -e GRADLE_USER_HOME=/work/.gradle-home wpilib/roborio-cross-ubuntu:2024-22.04 sh -c "rm -Rf .gradle && rm -Rf .gradle-home"
 	git clean -fdx
