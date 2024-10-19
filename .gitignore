@@ -1,5 +1,7 @@
 ## Additional .gitingore file for the project defined by FRC 9577
 .gradle-home/
+
+## This is the location of our common repo.
 src/main/java/frc/recoil/
 
 # This gitignore has been specially created by the WPILib team.
