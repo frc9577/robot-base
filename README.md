@@ -30,6 +30,10 @@ This is more manual than a linux install, but it's just 4 tools.
 
 When installing git, choose the option to install bash. Always use bash as your windows terminal when using this repo, as we only test on bash.
 
+### Windows "funnies"
+- Need to install make for everyone and add the make path manually to system paths.
+- Need to build via external git bash terminal started as administrator.
+
 # Updating this template
 When a new version of tools or libraries becomes available, use the WPILIB VSCode plugin to update the files in the project. Then, open a pull request against main to merge your change in.
 
