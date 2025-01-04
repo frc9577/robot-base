@@ -1,6 +1,6 @@
 WORKDIR ?= $(shell pwd)
 
-WPILIB_CONTAINER := wpilib/roborio-cross-ubuntu:2024-22.04
+WPILIB_CONTAINER := wpilib/roborio-cross-ubuntu:2025-22.04
 
 .PHONY: build
 build:

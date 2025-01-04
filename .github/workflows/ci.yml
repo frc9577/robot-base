@@ -23,7 +23,7 @@ jobs:
   ci:
     runs-on: ubuntu-22.04
     container:
-      image: docker://wpilib/roborio-cross-ubuntu:2024-22.04
+      image: docker://wpilib/roborio-cross-ubuntu:2025-22.04
     steps:
       - name: Git Checkout
         uses: actions/checkout@v4
